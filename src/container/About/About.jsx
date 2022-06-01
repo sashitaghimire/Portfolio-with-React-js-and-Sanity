@@ -3,7 +3,7 @@ import './About.scss'
 
 function About() {
   return (
-    <div>About</div>
+    <div></div>
   )
 }
 

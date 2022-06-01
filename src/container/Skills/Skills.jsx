@@ -2,7 +2,7 @@ import React from "react";
 import "./Skills.scss";
 
 function Skills() {
-  return <div>Skills</div>;
+  return <div></div>;
 }
 
 export default Skills;
