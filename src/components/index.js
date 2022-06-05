@@ -1,3 +1,4 @@
-import Navbar from "./Navbar/Navbar";
+export { default as Navbar } from "./Navbar/Navbar";
+export { default as NavigationDots } from "./NavigationDots";
 
-export { Navbar };
+export { default as SocialMedia } from "./SocialMedia";

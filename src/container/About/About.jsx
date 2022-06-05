@@ -1,26 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./About.scss";
 import { motion } from "framer-motion";
-import { images } from "../../constants";
 import { urlFor, client } from "../../client";
-
-// const abouts = [
-//   {
-//     title: "Web Development",
-//     description: "Familiar with Html, css, javascipt, bootstrap",
-//     imgUrl: images?.about04,
-//   },
-//   {
-//     title: "Mobile App Development",
-//     description: "Basic of flutter and dart language",
-//     imgUrl: images?.about02,
-//   },
-//   {
-//     title: "UI/UX Design",
-//     description: "UI/UX design with figma",
-//     imgUrl: images?.about03,
-//   },
-// ];
+import { AppWrap } from "../../Wrapper";
 
 function About() {
   const [abouts, setAbouts] = useState([]);
@@ -31,7 +13,7 @@ function About() {
   }, []);
   return (
     <>
-      <h2 className="head-text">
+      <h2 className="head-text" style={{ marginTop: "4rem" }}>
         Good Design
         <span> means</span>
         <br />
@@ -62,4 +44,4 @@ function About() {
   );
 }
 
-export default About;
+export default AppWrap(About, "about");
