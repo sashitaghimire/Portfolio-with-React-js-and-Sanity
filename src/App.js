@@ -2,7 +2,7 @@ import React from "react";
 
 import { Navbar } from "./components";
 import "./App.scss";
-import { About, Header, Testimonials, Footer, Skills, Work } from "./container";
+import { About, Header, CompanyProjects, Footer, Skills, Work } from "./container";
 
 const App = () => (
   <div className="app">
@@ -11,7 +11,7 @@ const App = () => (
     <About />
     <Work />
     <Skills />
-    <Testimonials />
+    <CompanyProjects />
     <Footer />
   </div>
 );
